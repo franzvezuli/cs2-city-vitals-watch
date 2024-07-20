@@ -1,6 +1,6 @@
 ﻿<Publish>
   <ModId Value="85643" />
-  <DisplayName Value="City Vitals Watch (Monitor)" />
+  <DisplayName Value="City Vitals Watch (Monitor Stats)" />
   <ShortDescription Value="Monitor your city vitals stats at a glance." />
 
   <LongDescription>
@@ -8,7 +8,7 @@
 
 ### Description
 
-A panel to display vital city stats at a glance. Inspired by City Vitals Watch for CS1 ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=410151616) | [Github](https://github.com/rob-williams/CityVitalsWatchMod/)).
+A panel to display vital city stats at a glance. Inspired by City Vitals Watch for CS1.
 
 ### Features
 - Persistent vitals panel (Toggleable)
@@ -17,19 +17,19 @@ A panel to display vital city stats at a glance. Inspired by City Vitals Watch f
 
 ### Roadmap
 Will organize a better roadmap on GitHub, but so far:
-- Settings to show/hide certain stats [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/4)
-- Stat groupings (e.g. deathcare can use either) [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/5)
-- Draggable panel [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/7)
-- Mini view [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/6)
-- [And more...](https://github.com/franzvezuli/cs2-city-vitals-watch/issues)
+- Settings to show/hide certain stats
+- Stat groupings (e.g. deathcare can use either)
+- Draggable panel
+- Mini view
+- And more... (Check GitHub!)
 
 ### Attributions
 
-- Button Icon by [SVG Repo](https://www.svgrepo.com/svg/154308/pulse) licensed under the MIT License.
+- Button Icon by SVG Repo licensed under the MIT License.
 
 ### Resources
 
-- [PX Wiki Community-made guides](https://cs2.paradoxwikis.com/Community-made_guides)
+-PX Wiki Community-made guides
   </LongDescription>
 
   <Thumbnail Value="Properties/Resources/logo-square.png" />
@@ -50,5 +50,5 @@ Will organize a better roadmap on GitHub, but so far:
 - Fixed: game version warning (for cs2, not the mod)
 - Removed: Settings and keyboard bindings (mod doesn't use it yet)
   </ChangeLog>
-  <ExternalLink Type="" Url="" />
+  <ExternalLink Type="github" Url="https://github.com/franzvezuli/cs2-city-vitals-watch" />
 </Publish>
