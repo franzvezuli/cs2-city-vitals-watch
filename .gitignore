@@ -1,0 +1,14 @@
+# Ignore list
+/*
+node_modules/
+bin/
+obj/
+Library/
+PublishProfiles/
+
+# Include list
+!CityVitalsWatch
+!.gitignore
+!CityVitalsWatch.sln
+!LICENSE
+!README.md

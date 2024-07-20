@@ -1,0 +1,24 @@
+﻿<Publish>
+	<ModId Value="85643" />
+	<DisplayName Value="City Vitals Watch (Monitor)" />
+	<ShortDescription Value="Monitor your city vitals stats at a glance." />
+
+	<LongDescription>## City Vitals Watch (Monitor)
+		Testing
+
+		## Features
+		- testing
+	</LongDescription>
+
+	<Thumbnail Value="Properties/Thumbnail.png" />
+
+	<Screenshot Value="" />
+
+	<Tag Value="" />
+	<ForumLink Value="" />
+	<ModVersion Value="0.1.0" />
+	<GameVersion Value="1.0.*" />
+	<Dependency Id="" />
+	<ChangeLog>- Initial mod publish</ChangeLog>
+	<ExternalLink Type="" Url="" />
+</Publish>
