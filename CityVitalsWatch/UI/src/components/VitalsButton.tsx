@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import { FloatingButton } from 'cs2/ui';
 
+import styles from '../vitals.module.scss';
+import vitalsIcon from './../resources/vitals-icon.svg';
 import { VitalsPanel } from './VitalsPanel';
 
 export const VitalsButton = () => {
@@ -9,7 +11,12 @@ export const VitalsButton = () => {
 
   return (
     <div>
-      <FloatingButton selected={showVitals} onClick={() => setShowVitals((prev) => !prev)} />
+      <FloatingButton
+        src={vitalsIcon}
+        className={styles.buttonIcon}
+        selected={showVitals}
+        onClick={() => setShowVitals((prev) => !prev)}
+      />
       {showVitals && <VitalsPanel />}
     </div>
   );
