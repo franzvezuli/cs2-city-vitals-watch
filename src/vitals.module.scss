@@ -1,0 +1,54 @@
+.panel {
+  position: absolute;
+  top: calc(10rem + var(--floatingToggleSize) + 6rem);
+  right: -100rem;
+}
+
+.vitalRow {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.icon-x-space {
+  margin-left: 4rem;
+  margin-right: 10rem;
+}
+
+// Split into own file.
+.progressBar {
+  background-color: #e0e0e0;
+  border-radius: 25rem;
+  position: relative;
+  width: 300rem;
+  transition: width 2s;
+}
+
+.progressBarFill {
+  height: 22rem;
+  border-radius: 25rem;
+}
+
+.progressBarPercentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
+
+.bg-red {
+  background-color: rgba(255, 78, 24, 1);
+}
+
+.bg-orange {
+  background-color: rgba(255, 131, 27, 1);
+}
+
+.bg-light-green {
+  background-color: rgba(99, 181, 6, 1);
+}
+
+.bg-green {
+  background-color: rgba(71, 148, 54, 1);
+}

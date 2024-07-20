@@ -1,0 +1,16 @@
+# Ignore list
+/*
+node_modules/
+
+# Include files we want
+!/src
+!/tools
+!/types
+!.gitignore
+!.prettierignore
+!.prettierrc
+!mod.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!webpack.config.js

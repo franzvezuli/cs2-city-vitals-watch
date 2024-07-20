@@ -1,0 +1,10 @@
+{
+  "htmlWhitespaceSensitivity": "ignore",
+  "bracketSameLine": true,
+  "singleQuote": true,
+  "printWidth": 100,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": ["^cs2/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
