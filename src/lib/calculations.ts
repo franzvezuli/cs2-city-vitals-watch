@@ -1,9 +1,11 @@
 import { ValueBinding, useValue } from 'cs2/api';
 import { IndicatorValue, infoview } from 'cs2/bindings';
+
 import { VitalsDataType } from '../entity/VitalsData';
 
 export function calculatePercentage(vital: VitalsDataType): number {
-  const indicatorPercentage = () => calculateIndicatorPercentage(vital.valueBinding as ValueBinding<IndicatorValue>);
+  const indicatorPercentage = () =>
+    calculateIndicatorPercentage(vital.valueBinding as ValueBinding<IndicatorValue>);
 
   switch (vital.id) {
     case 'traffic':
