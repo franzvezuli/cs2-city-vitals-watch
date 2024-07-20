@@ -1,0 +1,4 @@
+# Ignore libraries and auto generated files
+node_modules
+tools
+types
