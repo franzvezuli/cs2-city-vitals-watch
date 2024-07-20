@@ -14,6 +14,11 @@ interface NumberArrayValueBinding extends VitalsData<number[]> {}
 
 export type VitalsDataType = IndicatorValueBinding | NumberArrayValueBinding | NumberValueBinding;
 
+export const VITAL_ID_TRAFFIC = 'traffic';
+export const VITAL_ID_GARBAGE = 'garbage';
+export const VITAL_ID_FIRE = 'fire';
+export const VITAL_ID_POLICE_CRIME = 'police-crime';
+
 export const vitalsData: VitalsDataType[] = [
   {
     id: 'parking',
@@ -22,7 +27,7 @@ export const vitalsData: VitalsDataType[] = [
     valueBinding: infoview.parkingAvailability$,
   },
   {
-    id: 'traffic',
+    id: VITAL_ID_TRAFFIC,
     tooltip: 'Traffic Flow',
     mainIconSrc: 'Media/Game/Icons/Traffic.svg',
     valueBinding: infoview.trafficFlow$,
@@ -64,7 +69,7 @@ export const vitalsData: VitalsDataType[] = [
     valueBinding: infoview.cemeteryAvailability$,
   },
   {
-    id: 'garbage',
+    id: VITAL_ID_GARBAGE,
     tooltip: 'Garbage Processing Rate (CS2 bug?)',
     mainIconSrc: 'Media/Game/Icons/Garbage.svg',
     valueBinding: infoview.garbageProcessingRate$,
@@ -76,7 +81,7 @@ export const vitalsData: VitalsDataType[] = [
     valueBinding: infoview.landfillAvailability$,
   },
   {
-    id: 'fire',
+    id: VITAL_ID_FIRE,
     tooltip: 'Fire Protection',
     mainIconSrc: 'Media/Game/Icons/FireSafety.svg',
     valueBinding: infoview.averageFireHazard$,
@@ -100,7 +105,7 @@ export const vitalsData: VitalsDataType[] = [
     valueBinding: infoview.prisonAvailability$,
   },
   {
-    id: 'police-crime',
+    id: VITAL_ID_POLICE_CRIME,
     tooltip: 'Crime Probability',
     mainIconSrc: 'Media/Game/Icons/Police.svg',
     valueBinding: infoview.averageCrimeProbability$,

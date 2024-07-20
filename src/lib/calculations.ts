@@ -1,19 +1,25 @@
 import { ValueBinding, useValue } from 'cs2/api';
 import { IndicatorValue, infoview } from 'cs2/bindings';
 
-import { VitalsDataType } from '../entity/VitalsData';
+import {
+  VITAL_ID_FIRE,
+  VITAL_ID_GARBAGE,
+  VITAL_ID_POLICE_CRIME,
+  VITAL_ID_TRAFFIC,
+  VitalsDataType,
+} from '../entity/VitalsData';
 
 export function calculatePercentage(vital: VitalsDataType): number {
   const indicatorPercentage = () =>
     calculateIndicatorPercentage(vital.valueBinding as ValueBinding<IndicatorValue>);
 
   switch (vital.id) {
-    case 'traffic':
+    case VITAL_ID_TRAFFIC:
       return calculateTrafficPercentage();
-    case 'garbage':
+    case VITAL_ID_GARBAGE:
       return calculateGarbagePercentage();
-    case 'fire':
-    case 'police-crime':
+    case VITAL_ID_FIRE:
+    case VITAL_ID_POLICE_CRIME:
       return inversePercentage(indicatorPercentage());
     default:
       return indicatorPercentage();
