@@ -7,14 +7,14 @@ import { ProgressBar } from './ProgressBar';
 
 interface Data {
   tooltip: string;
-  mainIconSrc: string;
+  iconSrc: string;
   percentage: number;
 }
 
-export const VitalRow: React.FC<Data> = ({ tooltip, mainIconSrc, percentage }) => (
+export const VitalRow: React.FC<Data> = ({ tooltip, iconSrc, percentage }) => (
   <Tooltip tooltip={tooltip}>
     <div className={styles.vitalRow}>
-      <Icon className={styles.iconXSpace} src={mainIconSrc} />
+      <Icon className={styles.iconXSpace} src={iconSrc} />
       <ProgressBar percentage={percentage} />
     </div>
   </Tooltip>

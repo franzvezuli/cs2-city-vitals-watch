@@ -16,19 +16,19 @@ export const VitalsPanel: React.FC = () => {
   return (
     <Panel
       header={
-        <Tooltip tooltip={'v0.1.0'}>
+        <Tooltip tooltip="v0.1.0">
           <div>City Vitals Watch</div>
         </Tooltip>
       }
       className={styles.panel}>
       <Scrollable style={{ maxHeight: '52vh' }}>
         <PanelSection>
-          {data.map((item, index) => (
+          {data.map((it) => (
             <VitalRow
-              key={index}
-              tooltip={item.tooltip}
-              mainIconSrc={item.mainIconSrc}
-              percentage={item.percentage}
+              key={it.id}
+              tooltip={it.tooltip}
+              iconSrc={it.iconSrc}
+              percentage={it.percentage}
             />
           ))}
         </PanelSection>

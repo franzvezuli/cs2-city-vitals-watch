@@ -9,8 +9,8 @@ export const VitalsButton = () => {
 
   return (
     <div>
-      <FloatingButton selected={showVitals} onClick={() => setShowVitals(!showVitals)} />
-      {showVitals ? <VitalsPanel /> : null}
+      <FloatingButton selected={showVitals} onClick={() => setShowVitals((prev) => !prev)} />
+      {showVitals && <VitalsPanel />}
     </div>
   );
 };
