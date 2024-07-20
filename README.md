@@ -27,8 +27,7 @@ Will organize a better roadmap on GitHub, but so far:
 
 ### Attributions
 
-- Icon by [SVG Repo](https://www.svgrepo.com/svg/154308/pulse) licensed under the MIT License.
-- Logos by [Adobe Firefly](https://www.adobe.com/products/firefly.html) (paid).
+- Button Icon by [SVG Repo](https://www.svgrepo.com/svg/154308/pulse) licensed under the MIT License.
 
 ### Resources
 
