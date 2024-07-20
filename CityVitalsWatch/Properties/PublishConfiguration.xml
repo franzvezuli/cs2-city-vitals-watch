@@ -5,24 +5,50 @@
 
   <LongDescription>
 ## City Vitals Watch (Monitor Stats)
-Testing
 
+### Description
 
-## Features
-- testing
+A panel to display vital city stats at a glance. Inspired by City Vitals Watch for CS1 ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=410151616) | [Github](https://github.com/rob-williams/CityVitalsWatchMod/)).
+
+### Features
+- Persistent vitals panel (Toggleable)
+- Scrollable list
+- Most stats available
+
+### Roadmap
+Will organize a better roadmap on GitHub, but so far:
+- Settings to show/hide certain stats [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/4)
+- Stat groupings (e.g. deathcare can use either) [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/5)
+- Draggable panel [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/7)
+- Mini view [link](https://github.com/franzvezuli/cs2-city-vitals-watch/issues/6)
+- [And more...](https://github.com/franzvezuli/cs2-city-vitals-watch/issues)
+
+### Attributions
+
+Icon by [SVG Repo](https://www.svgrepo.com/svg/154308/pulse) licensed under the MIT License.
+
+### Resources
+
+- [PX Wiki Community-made guides](https://cs2.paradoxwikis.com/Community-made_guides)
   </LongDescription>
 
-  <Thumbnail Value="Properties/Resources/logo.jpg" />
+  <Thumbnail Value="Properties/Resources/logo-square.png" />
 
-  <Screenshot Value="" />
+  <Screenshot Value="Properties/Previews/screenshot-1.png" />
+  <Screenshot Value="Properties/Previews/screenshot-2.png" />
+  <Screenshot Value="Properties/Previews/screenshot-3.png" />
 
-  <Tag Value="" />
+  <Tag Value="Code Mod" />
+  <Tag Value="UI Mod" />
   <ForumLink Value="" />
-  <ModVersion Value="0.1.1" />
+  <ModVersion Value="0.1.2" />
   <GameVersion Value="1.1.*" />
   <Dependency Id="" />
   <ChangeLog>
-- Editing logo and description
+- Changed Button Icon
+- Edited README and PDX description
+- Removed settings and keyboard bindings (mod doesn't use it yet)
+- Edited game version warning (for cs2, not the mod)
   </ChangeLog>
   <ExternalLink Type="" Url="" />
 </Publish>
