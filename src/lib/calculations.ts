@@ -1,43 +1,37 @@
 import { ValueBinding, useValue } from 'cs2/api';
 import { IndicatorValue, infoview } from 'cs2/bindings';
-
 import { VitalsDataType } from '../entity/VitalsData';
 
 export function calculatePercentage(vital: VitalsDataType): number {
+  const indicatorPercentage = () => calculateIndicatorPercentage(vital.valueBinding as ValueBinding<IndicatorValue>);
+
   switch (vital.id) {
     case 'traffic':
       return calculateTrafficPercentage();
     case 'garbage':
       return calculateGarbagePercentage();
     case 'fire':
-      return inversePercentage(
-        calculateIndicatorPercentage(vital.valueBinding as ValueBinding<IndicatorValue>),
-      );
     case 'police-crime':
-      console.log(useValue(vital.valueBinding as ValueBinding<IndicatorValue>));
-
-      return inversePercentage(
-        calculateIndicatorPercentage(vital.valueBinding as ValueBinding<IndicatorValue>),
-      );
+      return inversePercentage(indicatorPercentage());
     default:
-      return calculateIndicatorPercentage(vital.valueBinding as ValueBinding<IndicatorValue>);
+      return indicatorPercentage();
   }
 }
 
-function calculateTrafficPercentage() {
+function calculateTrafficPercentage(): number {
   const traffic = useValue(infoview.trafficFlow$);
 
   return traffic.reduce((acc, value) => acc + value, 0) / traffic.length;
 }
 
-function calculateGarbagePercentage() {
+function calculateGarbagePercentage(): number {
   const garbageProcessing = useValue(infoview.garbageProcessingRate$);
   const garbageProduction = useValue(infoview.garbageProductionRate$);
 
   return (garbageProcessing / garbageProduction) * 100;
 }
 
-function inversePercentage(percentage: number) {
+function inversePercentage(percentage: number): number {
   return 100 - percentage;
 }
 
