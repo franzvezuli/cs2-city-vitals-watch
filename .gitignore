@@ -9,6 +9,8 @@ node_modules/
 !.gitignore
 !.prettierignore
 !.prettierrc
+!LICENSE
+!README.md
 !mod.json
 !package.json
 !package-lock.json
