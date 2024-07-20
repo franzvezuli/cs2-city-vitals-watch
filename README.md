@@ -6,6 +6,8 @@
 
 A panel to display vital city stats at a glance. Inspired by City Vitals Watch for CS1 ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=410151616) | [Github](https://github.com/rob-williams/CityVitalsWatchMod/)).
 
+Available through the [Paradox Plaza Mods](https://mods.paradoxplaza.com/mods/85643/Windows)
+
 ### Features
 - Persistent vitals panel (Toggleable)
 - Scrollable list
