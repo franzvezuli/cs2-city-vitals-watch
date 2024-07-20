@@ -34,6 +34,7 @@ Will organize a better roadmap on GitHub, but so far:
 
   <Thumbnail Value="Properties/Resources/logo-square.png" />
 
+  <Screenshot Value="Properties/Previews/logo-long.png" />
   <Screenshot Value="Properties/Previews/screenshot-1.png" />
   <Screenshot Value="Properties/Previews/screenshot-2.png" />
   <Screenshot Value="Properties/Previews/screenshot-3.png" />
@@ -45,10 +46,10 @@ Will organize a better roadmap on GitHub, but so far:
   <GameVersion Value="1.1.*" />
   <Dependency Id="" />
   <ChangeLog>
-- Changed Button Icon
-- Edited README and PDX description
-- Removed settings and keyboard bindings (mod doesn't use it yet)
-- Edited game version warning (for cs2, not the mod)
+- Changed: Button Icon
+- Changed: Lowered the width of the panel
+- Fixed: game version warning (for cs2, not the mod)
+- Removed: Settings and keyboard bindings (mod doesn't use it yet)
   </ChangeLog>
   <ExternalLink Type="" Url="" />
 </Publish>

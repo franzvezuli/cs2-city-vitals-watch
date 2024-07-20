@@ -13,7 +13,7 @@ export const VitalsButton = () => {
     <div>
       <FloatingButton
         src={vitalsIcon}
-        className={styles.icon}
+        className={styles.buttonIcon}
         selected={showVitals}
         onClick={() => setShowVitals((prev) => !prev)}
       />
