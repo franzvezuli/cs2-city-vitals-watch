@@ -5,7 +5,7 @@ import { FloatingButton } from 'cs2/ui';
 import { VitalsPanel } from './VitalsPanel';
 
 export const VitalsButton = () => {
-  const [showVitals, setShowVitals] = useState(true);
+  const [showVitals, setShowVitals] = useState(false);
 
   return (
     <div>
