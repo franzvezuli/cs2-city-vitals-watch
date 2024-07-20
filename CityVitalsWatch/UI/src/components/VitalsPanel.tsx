@@ -16,7 +16,7 @@ export const VitalsPanel: React.FC = () => {
   return (
     <Panel
       header={
-        <Tooltip tooltip="v0.1.2">
+        <Tooltip tooltip="v0.1.3">
           <div>City Vitals Watch</div>
         </Tooltip>
       }
