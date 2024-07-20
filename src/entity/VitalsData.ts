@@ -5,7 +5,6 @@ interface VitalsData<T> {
   id: string;
   tooltip: string;
   mainIconSrc: string;
-  secondaryIconSrc?: string;
   valueBinding: ValueBinding<T>;
 }
 
