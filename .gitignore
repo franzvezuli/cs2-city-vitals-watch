@@ -1,18 +1,14 @@
 # Ignore list
 /*
 node_modules/
+bin/
+obj/
+Library/
+PublishProfiles/
 
-# Include files we want
-!/src
-!/tools
-!/types
+# Include list
+!CityVitalsWatch
 !.gitignore
-!.prettierignore
-!.prettierrc
+!CityVitalsWatch.sln
 !LICENSE
 !README.md
-!mod.json
-!package.json
-!package-lock.json
-!tsconfig.json
-!webpack.config.js
