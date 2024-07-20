@@ -4,7 +4,7 @@
   right: -100rem;
 }
 
-.vitalRow {
+.vital-row {
   display: flex;
   align-items: center;
   margin-top: 10rem;
@@ -15,8 +15,7 @@
   margin-right: 10rem;
 }
 
-// Split into own file.
-.progressBar {
+.progress-bar {
   background-color: #e0e0e0;
   border-radius: 25rem;
   position: relative;
@@ -24,12 +23,12 @@
   transition: width 2s;
 }
 
-.progressBarFill {
+.progress-bar-fill {
   height: 22rem;
   border-radius: 25rem;
 }
 
-.progressBarPercentage {
+.progress-bar-percentage {
   position: absolute;
   top: 50%;
   left: 50%;
