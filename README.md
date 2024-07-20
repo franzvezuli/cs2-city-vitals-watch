@@ -21,9 +21,9 @@ Will organize a better roadmap on GitHub, but so far:
 
 ### Screenshots
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![Screenshot](CityVitalsWatch/Properties/Resources/screenshot-1.png)  |  ![Screenshot](CityVitalsWatch/Properties/Resources/screenshot-2.png)
+|                                Full Game                                |                                Closeup                                 |
+|:-----------------------------------------------------------------------:|:----------------------------------------------------------------------:|
+| ![Screenshot 1](CityVitalsWatch/Properties/Resources/screenshot-1.png)  | ![Screenshot 2](CityVitalsWatch/Properties/Resources/screenshot-2.png) |
 
 ### Attributions
 
